@@ -1,0 +1,67 @@
+body {
+    background-image: url('courtroom-background.jpg'); /* Replace with actual background image path */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #f0ad4e;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #800000; /* Dark red for a courtroom theme */
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
